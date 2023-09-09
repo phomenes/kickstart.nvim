@@ -130,11 +130,11 @@ require('lazy').setup({
   },
 
   {
-    -- Retro groove color scheme for Vim
-    'morhetz/gruvbox',
+    -- Theme inspired by Atom
+    'navarasu/onedark.nvim',
     priority = 1000,
     config = function()
-      vim.cmd.colorscheme 'gruvbox'
+      vim.cmd.colorscheme 'onedark'
     end,
   },
 
@@ -156,7 +156,6 @@ require('lazy').setup({
       char = '┊',
       show_trailing_blankline_indent = false,
     },
-    optional = true,
   },
 
   -- "gc" to comment visual regions/lines
@@ -245,6 +244,7 @@ vim.o.termguicolors = true
 
 vim.o.keymap = 'russian-jcukenwin'
 vim.o.iminsert = 0
+vim.o.background = 'light'
 
 -- [[ Basic Keymaps ]]
 
