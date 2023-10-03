@@ -143,12 +143,7 @@ require('lazy').setup({
     'nvim-lualine/lualine.nvim',
     -- See `:help lualine.txt`
     opts = {
-      options = {
-        icons_enabled = false,
-        theme = 'onedark',
-        component_separators = '|',
-        section_separators = '',
-      },
+      options = nil,
     },
   },
 
@@ -246,6 +241,10 @@ vim.o.completeopt = 'menuone,noselect'
 
 -- NOTE: You should make sure your terminal supports this
 vim.o.termguicolors = true
+
+vim.o.keymap = 'russian-jcukenwin'
+vim.o.iminsert = 0
+vim.o.background = 'light'
 
 -- [[ Basic Keymaps ]]
 
