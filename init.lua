@@ -307,7 +307,6 @@ vim.o.termguicolors = true
 
 vim.o.keymap = 'russian-jcukenwin'
 vim.o.iminsert = 0
-vim.o.background = 'light'
 
 -- [[ Basic Keymaps ]]
 
